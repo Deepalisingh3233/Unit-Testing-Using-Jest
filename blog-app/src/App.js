@@ -1,20 +1,39 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
+import Users from './User';
+import handleOtherMethod from './helper';
 
 function App() {
   const [data, setData] = useState("");
-  return (
-    <div className="App">
-      <h1>Test OnChange Event with Input Text</h1>
-      <input type='text' value={data} onChange={(e) => setData(e.target.value+"test")}/>
+  const handleData = () => {
+    setData("Hello");
+  }
 
-      <h1>Test Click Event with Button</h1>
-      <button onClick={() => setData("updated data")}>Update Data</button>
-      <h1>{data}</h1>
+ 
+  return (
+    <div>
+      <h1>Functional Component methods testing</h1>
+      <button data-testid = "btn1" onClick={handleData}>Update</button>
+      <button onClick={handleOtherMethod}>Print</button>
+      <h2>{data}</h2>
     </div>
   );
 }
+
+// function App() {
+//   const [data, setData] = useState("");
+//   return (
+//     <div className="App">
+//       <h1>Test OnChange Event with Input Text</h1>
+//       <input type='text' value={data} onChange={(e) => setData(e.target.value+"test")}/>
+
+//       <h1>Test Click Event with Button</h1>
+//       <button onClick={() => setData("updated data")}>Update Data</button>
+//       <h1>{data}</h1>
+//     </div>
+//   );
+// }
 
 // function App() {
 //   return (
