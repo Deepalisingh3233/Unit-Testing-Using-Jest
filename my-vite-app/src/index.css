@@ -1,0 +1,23 @@
+td{
+    padding: 20px 30px ;
+}
+table{
+    padding: 10px;
+}
+th{
+    border-left: 1px solid gray;
+    padding: 0 20px;
+}
+th:first-child{
+    border-left: 1px solid white;
+}
+button{
+    padding: 6px 8px;
+    margin: 6px;
+}
+input{
+    padding: 6px 8px;
+}
+.justify-end{
+    margin-left: 620px;
+}

@@ -1,0 +1,572 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Snapshot for the app component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <button
+          data-testid="increment"
+        >
+          Count: 
+          0
+        </button>
+      </div>
+      <br />
+      <div>
+        <input
+          placeholder="Type something..."
+          type="text"
+          value=""
+        />
+        <button>
+          Show Text
+        </button>
+        <p
+          data-testid="output"
+        />
+      </div>
+      <br />
+      <div
+        class="fixed inset-0 flex bg-black bg-opacity-40 z-50"
+      >
+        <div
+          class="bg-white p-6 rounded-2xl shadow-xl w-full max-w-4xl relative overflow-x-auto"
+        >
+          <h2
+            class="text-2xl font-bold mb-1"
+          >
+            Augmentin 625 Duo Tablet
+          </h2>
+          <p
+            class="mb-4 text-gray-600"
+          >
+            Amoxycillin (500mg) + Clavulanic Acid (125mg)
+          </p>
+          <table
+            class="w-full border-collapse text-sm"
+          >
+            <thead
+              class="bg-teal-600 text-white"
+            >
+              <tr>
+                <th
+                  class="p-2 text-left"
+                >
+                  Stored At
+                </th>
+                <th
+                  class="p-2 text-left"
+                >
+                  Batch No.
+                </th>
+                <th
+                  class="p-2 text-left"
+                >
+                  Mfg. Date
+                </th>
+                <th
+                  class="p-2 text-left"
+                >
+                  Exp. Date
+                </th>
+                <th
+                  class="p-2 text-left"
+                >
+                  MRP (₹)
+                </th>
+                <th
+                  class="p-2 text-left"
+                >
+                  Unit Per Qty.
+                </th>
+                <th
+                  class="p-2 text-left"
+                >
+                  Avl. Qty.
+                </th>
+                <th
+                  class="p-2 text-left"
+                >
+                  Qty.
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              data-testid="table-body"
+            >
+              <tr
+                class="border-b"
+              >
+                <td
+                  class="p-2"
+                >
+                  S12/Rac4
+                </td>
+                <td
+                  class="p-2"
+                >
+                  AXB10851
+                </td>
+                <td
+                  class="p-2"
+                >
+                  JAN-2024
+                </td>
+                <td
+                  class="p-2"
+                >
+                  JAN-2026
+                </td>
+                <td
+                  class="p-2"
+                >
+                  237.0
+                </td>
+                <td
+                  class="p-2"
+                >
+                  10
+                </td>
+                <td
+                  class="p-2"
+                >
+                  10
+                </td>
+                <td
+                  class="p-2"
+                >
+                  <input
+                    class="w-16 border rounded px-2 py-1"
+                    max="10"
+                    min="0"
+                    type="number"
+                    value="0"
+                  />
+                </td>
+              </tr>
+              <tr
+                class="border-b"
+              >
+                <td
+                  class="p-2"
+                >
+                  S6/Rac6
+                </td>
+                <td
+                  class="p-2"
+                >
+                  EXB10605
+                </td>
+                <td
+                  class="p-2"
+                >
+                  JAN-2024
+                </td>
+                <td
+                  class="p-2"
+                >
+                  JAN-2026
+                </td>
+                <td
+                  class="p-2"
+                >
+                  201.0
+                </td>
+                <td
+                  class="p-2"
+                >
+                  10
+                </td>
+                <td
+                  class="p-2"
+                >
+                  150
+                </td>
+                <td
+                  class="p-2"
+                >
+                  <input
+                    class="w-16 border rounded px-2 py-1"
+                    max="150"
+                    min="0"
+                    type="number"
+                    value="0"
+                  />
+                </td>
+              </tr>
+              <tr
+                class="border-b"
+              >
+                <td
+                  class="p-2"
+                >
+                  S6/Rac5
+                </td>
+                <td
+                  class="p-2"
+                >
+                  BXB10882
+                </td>
+                <td
+                  class="p-2"
+                >
+                  JAN-2024
+                </td>
+                <td
+                  class="p-2"
+                >
+                  JAN-2026
+                </td>
+                <td
+                  class="p-2"
+                >
+                  198.2
+                </td>
+                <td
+                  class="p-2"
+                >
+                  10
+                </td>
+                <td
+                  class="p-2"
+                >
+                  210
+                </td>
+                <td
+                  class="p-2"
+                >
+                  <input
+                    class="w-16 border rounded px-2 py-1"
+                    max="210"
+                    min="0"
+                    type="number"
+                    value="0"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="mt-4 flex justify-end"
+          >
+            <button
+              class="bg-teal-600 text-white px-6 py-2 rounded hover:bg-teal-700"
+            >
+              +Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <button
+        data-testid="increment"
+      >
+        Count: 
+        0
+      </button>
+    </div>
+    <br />
+    <div>
+      <input
+        placeholder="Type something..."
+        type="text"
+        value=""
+      />
+      <button>
+        Show Text
+      </button>
+      <p
+        data-testid="output"
+      />
+    </div>
+    <br />
+    <div
+      class="fixed inset-0 flex bg-black bg-opacity-40 z-50"
+    >
+      <div
+        class="bg-white p-6 rounded-2xl shadow-xl w-full max-w-4xl relative overflow-x-auto"
+      >
+        <h2
+          class="text-2xl font-bold mb-1"
+        >
+          Augmentin 625 Duo Tablet
+        </h2>
+        <p
+          class="mb-4 text-gray-600"
+        >
+          Amoxycillin (500mg) + Clavulanic Acid (125mg)
+        </p>
+        <table
+          class="w-full border-collapse text-sm"
+        >
+          <thead
+            class="bg-teal-600 text-white"
+          >
+            <tr>
+              <th
+                class="p-2 text-left"
+              >
+                Stored At
+              </th>
+              <th
+                class="p-2 text-left"
+              >
+                Batch No.
+              </th>
+              <th
+                class="p-2 text-left"
+              >
+                Mfg. Date
+              </th>
+              <th
+                class="p-2 text-left"
+              >
+                Exp. Date
+              </th>
+              <th
+                class="p-2 text-left"
+              >
+                MRP (₹)
+              </th>
+              <th
+                class="p-2 text-left"
+              >
+                Unit Per Qty.
+              </th>
+              <th
+                class="p-2 text-left"
+              >
+                Avl. Qty.
+              </th>
+              <th
+                class="p-2 text-left"
+              >
+                Qty.
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            data-testid="table-body"
+          >
+            <tr
+              class="border-b"
+            >
+              <td
+                class="p-2"
+              >
+                S12/Rac4
+              </td>
+              <td
+                class="p-2"
+              >
+                AXB10851
+              </td>
+              <td
+                class="p-2"
+              >
+                JAN-2024
+              </td>
+              <td
+                class="p-2"
+              >
+                JAN-2026
+              </td>
+              <td
+                class="p-2"
+              >
+                237.0
+              </td>
+              <td
+                class="p-2"
+              >
+                10
+              </td>
+              <td
+                class="p-2"
+              >
+                10
+              </td>
+              <td
+                class="p-2"
+              >
+                <input
+                  class="w-16 border rounded px-2 py-1"
+                  max="10"
+                  min="0"
+                  type="number"
+                  value="0"
+                />
+              </td>
+            </tr>
+            <tr
+              class="border-b"
+            >
+              <td
+                class="p-2"
+              >
+                S6/Rac6
+              </td>
+              <td
+                class="p-2"
+              >
+                EXB10605
+              </td>
+              <td
+                class="p-2"
+              >
+                JAN-2024
+              </td>
+              <td
+                class="p-2"
+              >
+                JAN-2026
+              </td>
+              <td
+                class="p-2"
+              >
+                201.0
+              </td>
+              <td
+                class="p-2"
+              >
+                10
+              </td>
+              <td
+                class="p-2"
+              >
+                150
+              </td>
+              <td
+                class="p-2"
+              >
+                <input
+                  class="w-16 border rounded px-2 py-1"
+                  max="150"
+                  min="0"
+                  type="number"
+                  value="0"
+                />
+              </td>
+            </tr>
+            <tr
+              class="border-b"
+            >
+              <td
+                class="p-2"
+              >
+                S6/Rac5
+              </td>
+              <td
+                class="p-2"
+              >
+                BXB10882
+              </td>
+              <td
+                class="p-2"
+              >
+                JAN-2024
+              </td>
+              <td
+                class="p-2"
+              >
+                JAN-2026
+              </td>
+              <td
+                class="p-2"
+              >
+                198.2
+              </td>
+              <td
+                class="p-2"
+              >
+                10
+              </td>
+              <td
+                class="p-2"
+              >
+                210
+              </td>
+              <td
+                class="p-2"
+              >
+                <input
+                  class="w-16 border rounded px-2 py-1"
+                  max="210"
+                  min="0"
+                  type="number"
+                  value="0"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="mt-4 flex justify-end"
+        >
+          <button
+            class="bg-teal-600 text-white px-6 py-2 rounded hover:bg-teal-700"
+          >
+            +Add
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,4 +1,5 @@
 import './App.css';
+import MedicinePopup from './components/MedicinePopup';
 import InputEcho from './InputEcho';
 
 const user = {
@@ -41,6 +42,8 @@ export default function App() {
         <h2>Type Something:</h2>
         <InputEcho/> 
       </div>
+
+      <div><MedicinePopup/></div>
     </div>
     </>
   );

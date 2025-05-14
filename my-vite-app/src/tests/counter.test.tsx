@@ -1,5 +1,4 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import { Counter } from './Counter';
 import React = require('react');
 import App from '../App';
 

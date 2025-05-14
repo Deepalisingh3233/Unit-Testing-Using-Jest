@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Counter } from './components/Counter'
 import InputEcho from './components/InputEcho'
+import MedicinePopup from './components/MedicinePopup'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,8 @@ function App() {
      <Counter />
      <br/>
      <InputEcho />
+     <br/>
+     <MedicinePopup/>
     </>
   )
 }
