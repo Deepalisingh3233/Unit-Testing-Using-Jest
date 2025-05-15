@@ -1,50 +1,27 @@
-import './App.css';
-import MedicinePopup from './components/MedicinePopup';
-import InputEcho from './InputEcho';
+import React, { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
-const user = {
-  name: 'Ankita Bajpai'
-};
-
-function handleClick() {
-  alert("Hello, I am " + user.name);
-}
-
-function MyButton() {
-  return (
-    <button className="btn" onClick={handleClick}>
-      Click Me!
-    </button>
-  );
-}
-
-export default function App() {
+function App() {
+  const [count, setCount] = useState(0)
 
   return (
-    <>
-    <div className="main">
-      <h1>{user.name}</h1>
-      <img
-        className="avatar"
-        src="https://i.imgur.com/yXOvdOSs.jpg"
-        alt={`Photo of ${user.name}`}
-        style={{
-          width: 90,
-          height: 90,
-          borderRadius: '50%',
-        }}
-      />
-      <div>
-        <MyButton />
-      </div>
+      <div className='App'>
+        <h1>Multiple with Role</h1> 
+        <h1>Custom Role</h1>
+        <button>Click 1</button>
+        <button>Click 2</button>
+        <label htmlFor='input1'>User Name</label>
+        <input type="text" value="" id='input1' />
+        <label htmlFor='input2'>User Age</label>
+        <input type="text" value="" id='input2'/>
 
-      <div>
-        <h2>Type Something:</h2>
-        <InputEcho/> 
+        <div role='dummy'>
+          Dummy Text
+        </div>
       </div>
-
-      <div><MedicinePopup/></div>
-    </div>
-    </>
-  );
+  )
 }
+
+export default App
