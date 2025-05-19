@@ -10,6 +10,7 @@ const Debugging = () => {
         </button>
         <h2>Heading 2</h2>
         <h2>Heading 3</h2>
+        <input type="text" placeholder="Enter Name" id="" />
       </div>
   )
 }
