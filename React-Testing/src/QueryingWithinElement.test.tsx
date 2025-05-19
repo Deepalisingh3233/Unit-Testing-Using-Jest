@@ -1,16 +1,15 @@
-import React, { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { render, screen, within } from "@testing-library/react"
+import QueryinWithinElement from "./QueryingWithinElement"
 
-function QueryinWithinElement() {
-  return (
-      <div className='App'>
-        <h1 id="test-id">Custom Query</h1> 
-        
-      </div>
-  )
-}
 
-export default QueryinWithinElement;
-
+test("Test with within function", () => {
+    render(<QueryinWithinElement />);
+    let ele = screen.getByText("Hello World");
+    let subEle = within(ele).getByText("Hi")
+    let subEle2 = within(ele).getByText("Hello")
+    let subEle3 = within(ele).getByText("Hey")
+    expect(ele).toBeInTheDocument();
+    expect(subEle).toBeInTheDocument();
+    expect(subEle2).toBeInTheDocument();
+    expect(subEle3).toBeInTheDocument();
+})

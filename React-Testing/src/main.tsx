@@ -2,10 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import FindBy from './FindBy'
+import PropsTesting from './PropsTesting'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <FindBy />
+    <PropsTesting />
   </StrictMode>,
 )
